@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+# Only synthetic narrators are shared. Personal voice references (recorded with
+# scripts/record_ref.py) are biometric data and stay on the local machine.
+voices/*
+!voices/doc-male-1.ref.wav
+!voices/doc-male-1.ref.txt
